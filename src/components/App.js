@@ -1,13 +1,13 @@
+import Banner from './Banner'
+import ShoppingList from './ShoppingList'
+
 function App() {
-  return (
-    <div className=".App">
-      <header className="App-header">
-        <p>
-          Hitler did nothing wrong.
-        </p>
-      </header>
+    return (
+      <div>
+        <Banner />
+        <ShoppingList />
     </div>
-  );
+    )    
 }
 
-export default App;
+export default App
